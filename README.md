@@ -5,3 +5,8 @@ This particular code uses Scraping Bee API, which has worked for me. Scraping AP
 The code works, but is rather inefficient: there are many instances where function just does not include a particular team, due to lack of certain information. This in particular affects the HLTV scraping, where not including a team essentially wastes two uses of the scraping API. 
 
 There also might appear some problems with scraping when certain teams or players have peculiar names, which somehow interfere with Python RegEx. I included all the exceptions I encountered, but it is possible there are more.
+
+Results of my scraping can be found here:
+https://www.kaggle.com/datasets/jedrzejmironski/counter-strike-performance-dataset
+and here:
+https://www.kaggle.com/datasets/jedrzejmironski/league-of-legends-performance-dataset
